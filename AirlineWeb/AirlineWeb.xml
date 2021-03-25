@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AirlineWeb</name>
+    </assembly>
+    <members>
+        <member name="M:AirlineWeb.Controllers.FlightsController.GetFlightDetailsByCode(System.String)">
+            <summary>
+            Get flight details by Code
+            </summary>
+            <param name="flightCode"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AirlineWeb.Controllers.FlightsController.CreateFlight(AirlineWeb.Dtos.FlightDetailCreateDto)">
+            <summary>
+            Create flight Detail
+            </summary>
+            <param name="flightDetailCreateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AirlineWeb.Controllers.FlightsController.UpdateFlightDetail(System.Int32,AirlineWeb.Dtos.FlightDetailUpdateDto)">
+            <summary>
+            Update flight details
+            </summary>
+            <param name="id"></param>
+            <param name="flightDetailUpdateDto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AirlineWeb.Controllers.WebhookSubscriptionController.GetSubscriptionBySecret(System.String)">
+            <summary>
+            Get subscription by secret
+            </summary>
+            <param name="secret"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AirlineWeb.Controllers.WebhookSubscriptionController.CreateSubscription(AirlineWeb.Dtos.WebhookSubscriptionCreateDto)">
+            <summary>
+            Create Webhook subscription
+            </summary>
+            <param name="webhookSubscriptionCreateDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

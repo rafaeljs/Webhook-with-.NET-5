@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TravelAgentWeb</name>
+    </assembly>
+    <members>
+        <member name="M:TravelAgentWeb.Controllers.NotificationsController.FlightChanged(TravelAgentWeb.Dtos.FlightDetailUpdateDto)">
+            <summary>
+            Test Price Change Webhook
+            </summary>
+            <param name="flightDetailUpdateDto"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
